@@ -1,0 +1,15 @@
+* Usage 
+
+** Build docker image
+#+BEGIN_SRC sh
+docker build -t raincow .
+#+END_SRC
+
+** Run 
+#+BEGIN_SRC sh
+docker run -t raincow
+#+END_SRC
+
+#+CAPTION: output example
+#+NAME:   fig:raincow
+[[./img/raincow.png]]
